@@ -31,7 +31,8 @@ class Farmacia
 
     //metodo que devuelva si hay productos en oferta
 
-    //la primera opción
+    //la primera opción que pensé fue colocar precio oferta igual a precio en los que tenían que ir tipo NULL. Después hacer una comparación entre precio y precio oferta para ver si precio oferta era menor. Finalmente utilicé null, pero como no lo tenía muy claro miré documentación (no usé AI, i promise).
+     
     public function buscandoProductosEnOferta() : array
     {
         $productosEnOferta = [];
