@@ -57,6 +57,28 @@ class Producto
         $this->precioOferta = $precioOferta;
     }
 
+    public function __toString() : string {
+        
+        $toStringPersonalizado = "";
+
+        echo "entro en to string".PHP_EOL;
+
+        if ($this->precioOferta < $this->precio)
+        {
+            $toStringPersonalizado = "$this->nombre es producido por el laboratorio: $this->laboratorio, tiene un precio de $this->precio y hay un stock de $this->cantidad y está en oferta con este precio: $this->precioOferta".PHP_EOL;
+
+        } else 
+        {
+            $toStringPersonalizado = "$this->nombre es producido por el laboratorio: $this->laboratorio, tiene un precio de $this->precio y hay un stock de $this->cantidad".PHP_EOL;
+
+        }
+
+        return $toStringPersonalizado;
+        
     }
+
+    }
+
+
 
 ?>

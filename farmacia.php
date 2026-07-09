@@ -6,6 +6,10 @@ class Farmacia
 {
     public array $productos = [];
 
+    public function __construct()
+    {
+
+    }
 
     public function addProducto(Producto $producto): void 
     {
@@ -26,6 +30,8 @@ class Farmacia
     }
 
     //metodo que devuelva si hay productos en oferta
+
+    //la primera opción
     public function buscandoProductosEnOferta() : array
     {
         $productosEnOferta = [];
