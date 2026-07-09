@@ -20,4 +20,5 @@ PHP
 
 
 * Instalation *
-Github repository: https://github.com/cscmx/TascaS108.git
+Github repository: https://github.com/cscmx/Examen_CSC.git
+
