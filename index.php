@@ -25,13 +25,5 @@ foreach($productosDeFarmacia as $producto){
     echo $producto->__toString();
 }
 
-
 ?>
 
-/*
-$farmacia->addProducto(new Producto("Ibuprofeno", 3.5, "Novartis", 5, null)),
-$farmacia->addProducto(new Producto("Paracetamol", 2.5, "Farmacid", 10, 2)),
-$farmacia->addProducto(new Producto("Aspirina", 3, "Bayer", 15, 1.5)),
-$farmacia->addProducto(new Producto("Vitamina D", 5, "Suplementos Omega", 3, null)),
-$farmacia->addProducto(new Producto("", 7, "Suplementos Omega", 3, null)),
-*/
